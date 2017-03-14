@@ -16,7 +16,7 @@ import java.util.logging.Logger;
 
 /**
  *
- * @author Ryan
+ * @author Dani
  */
 public class KoneksiDB {
 public static Connection setKoneksi() {

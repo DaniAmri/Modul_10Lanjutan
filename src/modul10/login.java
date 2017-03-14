@@ -17,7 +17,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author Ryan
+ * @author Dani
  */
 public class login extends javax.swing.JFrame {
 
@@ -51,7 +51,7 @@ public class login extends javax.swing.JFrame {
         setBackground(new java.awt.Color(255, 255, 255));
         getContentPane().setLayout(null);
 
-        jPanel1.setBackground(new java.awt.Color(204, 0, 0));
+        jPanel1.setBackground(new java.awt.Color(204, 204, 204));
         jPanel1.setLayout(null);
         jPanel1.add(txtnama);
         txtnama.setBounds(10, 11, 240, 28);
@@ -59,7 +59,7 @@ public class login extends javax.swing.JFrame {
         getContentPane().add(jPanel1);
         jPanel1.setBounds(70, 69, 260, 50);
 
-        jPanel2.setBackground(new java.awt.Color(204, 0, 0));
+        jPanel2.setBackground(new java.awt.Color(204, 204, 204));
         jPanel2.setLayout(null);
         jPanel2.add(txtpass);
         txtpass.setBounds(10, 10, 240, 28);
@@ -67,12 +67,12 @@ public class login extends javax.swing.JFrame {
         getContentPane().add(jPanel2);
         jPanel2.setBounds(70, 150, 260, 50);
 
-        jLabel1.setFont(new java.awt.Font("Tahoma", 2, 18)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel1.setText("PASSWORD :");
         getContentPane().add(jLabel1);
         jLabel1.setBounds(140, 120, 110, 30);
 
-        jLabel2.setFont(new java.awt.Font("Tahoma", 2, 18)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jLabel2.setText("USERNAME :");
         getContentPane().add(jLabel2);
         jLabel2.setBounds(150, 40, 110, 30);
